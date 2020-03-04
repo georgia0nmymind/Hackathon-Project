@@ -1,0 +1,10 @@
+{
+    "name": "KEVIN AND ALEC'S AMAZING EXTENSION",
+    "version": "0.0.1",
+    "description": "Awesome extension!",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "manifest_version": 2
+  }
