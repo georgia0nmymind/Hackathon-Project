@@ -1,4 +1,4 @@
-{
+const simpsons_data = {
     "episodes": [
         {
             "title": "Simpsons Roasting on an Open Fire",

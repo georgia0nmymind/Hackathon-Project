@@ -1,0 +1,23 @@
+{
+  "name": "Hackathon",
+  "version": "1.0.0",
+  "description": "Hackathon Project ------------------ By Alec Below and Kevin Luo Copyrighted 2020",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuoKevin/Hackathon-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuoKevin/Hackathon-Project/issues"
+  },
+  "homepage": "https://github.com/LuoKevin/Hackathon-Project#readme",
+  "dependencies": {
+    "nouislider": "^14.1.1"
+  }
+}
