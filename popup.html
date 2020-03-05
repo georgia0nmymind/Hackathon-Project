@@ -5,11 +5,27 @@
   <script src='episodes.js'></script>
   <script src="simpsons_data.js"></script>
   <style>
+    @import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap");
+
     button {
       box-shadow: 1;
       outline: none;
       align-content: center;
     }
+
+    font-face {
+      font-family: "Gloria Hallelujah";
+
+
+    }
+
+    body {
+      font-family: "Gloria Hallelujah"
+    }
+
+    /* #disclaimer {
+      font-family: Simpsons
+    } */
 
     /* #logo {
                 align-items: center;
@@ -20,8 +36,10 @@
 <body>
 
   <img id='logo' src='./images/The_Simpsons_Logo.svg' />
-  <p style="text-align: center; font-size: 50%;">Random Simpsons Episode Generator created by Kevin Luo and Alec Below.
-    <br> Not intended for personal, commercial, or recreational usage.</p>
+  <p id="disclaimer" style="text-align: center; font-size: 50%;">Random Simpsons Episode
+    Generator created by Kevin Luo
+    and Alec Below.
+    Not intended for personal, commercial, or recreational usage.</p>
 
   <label for='epStart'>From Season:</label>
   <select id='epStart'>
