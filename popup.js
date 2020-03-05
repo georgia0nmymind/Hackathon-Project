@@ -13,9 +13,9 @@ randomEp.onclick = function(element) {
   //       tabs[0].id,
   //       {code: 'document.body.style.backgroundColor = "' + color + '";'});
   // });
-  let results = [];
-  let epStart = document.getElementById("epStart").value;
-  let epEnd = document.getElementById("epEnd").value;
+  //let results = [];
+  let epStart = Number(document.getElementById("epStart").value);
+  let epEnd = Number(document.getElementById("epEnd").value);
   if (epStart > epEnd) {
     let temp = epStart;
     epStart = epEnd;
