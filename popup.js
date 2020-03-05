@@ -45,11 +45,28 @@ randomEp.onclick = function(element) {
   const epInfo = document.getElementById("epInfo");
   const epLink = document.createElement("a");
   const epDiv = document.createElement("div");
+  const seasonEpNo = document.createElement("span");
+  const br1 = document.createElement("br");
+  const br2 = document.createElement("br");
+  const epDescript = document.createElement("span");
+  seasonEpNo.innerHTML =
+    "Season " +
+    simpsons_data.episodes[index].season +
+    " Episode " +
+    simpsons_data.episodes[index].episode;
+  seasonEpNo.id = "seasonEpNo";
+  epDescript.id = "epDescript";
+  epDescript.innerHTML = simpsons_data.episodes[index].description;
+  epDescript.style = "font-size: 75%";
   epDiv.id = "epDiv";
   epLink.id = "epLink";
   epLink.href = randEp;
   epLink.innerHTML = epTitle;
   epDiv.appendChild(epLink);
+  epDiv.appendChild(br1);
+  epDiv.appendChild(seasonEpNo);
+  epDiv.appendChild(br2);
+  epDiv.appendChild(epDescript);
   epInfo.appendChild(epDiv);
   //chrome.tabs.create({'url': randEp});
   epLink.onclick = () => {
