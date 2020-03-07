@@ -69,7 +69,7 @@ randomEp.onclick = function(element) {
   epDiv.appendChild(epDescript);
   epInfo.appendChild(epDiv);
   //chrome.tabs.create({'url': randEp});
-  epLink.onclick = () => {
-    chrome.tabs.create({ url: randEp });
-  };
+  // epLink.onclick = () => {
+  //   chrome.tabs.create({ url: randEp });
+  // };
 };
